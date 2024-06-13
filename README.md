@@ -49,6 +49,10 @@ uvicorn app.main:app --reload
 
 
 2. Get Configuration
+   curl -X GET "http://127.0.0.1:8000/get_configuration/IN"
+
+
+3. Update Configuration
    curl -X POST "http://127.0.0.1:8000/update_configuration" -H "Content-Type: application/json" -d '{
     "country_code": "IN",
     "requirements": {
@@ -62,7 +66,7 @@ uvicorn app.main:app --reload
 }'
 
 
-3. Delete Configuration
+4. Delete Configuration
    curl -X DELETE "http://127.0.0.1:8000/delete_configuration/IN"
 
 
