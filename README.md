@@ -74,3 +74,7 @@ Update the `"DATABASE_URL"` in the `.env` file with your PostgreSQL credentials.
 
 
 
+
+## C# Libraries
+
+The `csharp` directory contains example libraries including a configuration helper and an in-memory filesystem. See `csharp/README.md` for build and test instructions.
